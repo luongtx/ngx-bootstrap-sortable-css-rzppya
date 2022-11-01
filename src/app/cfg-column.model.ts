@@ -4,5 +4,6 @@ export interface CfgColumn {
 	searchable?: boolean,
 	sortable?: boolean,
 	width?: number, 
-	markAsLink?: boolean
+	markAsLink?: boolean,
+	display?: boolean
 }

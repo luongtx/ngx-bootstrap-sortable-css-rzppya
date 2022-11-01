@@ -1,6 +1,7 @@
 <ng-template #itemTemplate let-item="item" let-index="index">
   <div class="list-group-item">
-    <input type="checkbox" name="checkbox" id="" class="form-check-input" style="margin-left: 40px;">
+    <input type="checkbox" name="checkbox" id="" class="form-check-input" style="margin-left: 40px;"
+      [(ngModel)]="columnsConfig[index].display" (click)="onRowChecked($event)">
     <label for="checkbox" class="ms-2">{{item.value}}</label>
   </div>
 </ng-template>
@@ -8,8 +9,13 @@
 <div class="row">
   <div class="col-xs-6 col-6 col-md-5 col-lg-3 m-3">
     <div class="list-group">
-      <div class="list-group-item"> <input type="checkbox" name="checkbox" id="" class="form-check-input"> <label
-          for="checkbox" class="ms-2">Select all</label>
+      <div class="list-group-item"> 
+        <input type="checkbox" name="checkbox" id="" class="form-check-input" 
+        (click)="onAllRowChecked($event)"
+        [ngClass]="{'partial-check': checkState == TriState.PARTIAL, 
+                    'all-check': checkState == TriState.ALL, 
+                    'none-check': checkState == TriState.NONE}">
+        <label for="checkbox" class="ms-2">Select all</label>
       </div>
       <bs-sortable 
         [(ngModel)]="columnsConfig" 

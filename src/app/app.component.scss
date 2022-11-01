@@ -1,0 +1,19 @@
+p {
+  font-family: Lato;
+}
+
+::ng-deep .sortable-item {
+  padding: unset;
+  margin-bottom: unset;
+  line-height: unset;
+  text-align: unset;
+  border-radius: unset;
+
+  &:last-child .list-group-item {
+    border-bottom: 1px solid #dfdfdf;
+  }
+}
+
+.list-group-item {
+  border-bottom: unset;
+}

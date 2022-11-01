@@ -1,10 +1,3 @@
-<ng-template #itemTemplate let-item="item" let-index="index">
-  <div class="list-group-item">
-    <input type="checkbox" name="checkbox" id="" class="form-check-input" style="margin-left: 40px;"
-      [(ngModel)]="columnsConfig[index].display" (click)="onRowChecked($event)">
-    <label for="checkbox" class="ms-2">{{item.value}}</label>
-  </div>
-</ng-template>
 
 <div class="row">
   <div class="col-xs-6 col-6 col-md-5 col-lg-3 m-3">
@@ -17,6 +10,14 @@
                     'none-check': checkState == TriState.NONE}">
         <label for="checkbox" class="ms-2">Select all</label>
       </div>
+      <ng-template #itemTemplate let-item="item" let-index="index">
+        <div class="list-group-item">
+          <input type="checkbox" name="checkbox" id="" class="form-check-input" style="margin-left: 40px;"
+            [(ngModel)]="columnsConfig[index].display" (click)="onRowChecked($event)">
+          <label for="checkbox" class="ms-2">{{item.value}}</label>
+          <img src="assets/icons/drag-drop.svg" style="float: right; cursor: grab;" alt="drag n drop">
+        </div>
+      </ng-template>
       <bs-sortable 
         [(ngModel)]="columnsConfig" 
         fieldName="title"

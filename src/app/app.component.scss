@@ -1,7 +1,6 @@
 $telekommagenta: #E20074;
 
 ::ng-deep .sortable-item {
-  cursor: grab;
 
   &:last-child .list-group-item {
     border-bottom: 1px solid #dfdfdf;
@@ -21,6 +20,11 @@ $telekommagenta: #E20074;
 .list-group-item {
   border-bottom: unset;
   border-radius: unset;
+  height: 58px;
+
+  * {
+    margin-top: 10px;
+  }
 }
 
 

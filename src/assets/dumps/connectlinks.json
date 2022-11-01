@@ -1,0 +1,79 @@
+{
+  "totalPages": 1,
+  "totalItems": 3,
+  "data": [
+    {
+      "name": "EC 2.0 Anschluss L (IG)",
+      "id": "AN-tYr6Qg1",
+      "active": true,
+      "siteName": "Zentrale",
+      "street": "ABC-Straße 12",
+      "zipCode": "13452",
+      "location": "Bonn",
+      "links": [
+        {
+          "name": "EC 2.0 EPL 8M",
+          "id": "DTAG_VC_hrsbsb",
+          "active": true,
+          "uniPorts": ["UNI-1"],
+          "endpointA": null,
+          "locationA": null,
+          "endpointB": null,
+          "locationB": null
+        },
+        {
+          "name": "EC 2.0 EVPL 400M",
+          "id": "DTAG_VC_hrsbsa",
+          "active": true,
+          "uniPorts": ["UNI-2"],
+          "endpointA": null,
+          "locationA": null,
+          "endpointB": null,
+          "locationB": null
+        }
+      ]
+    },
+    {
+      "name": "EC 2.0 Anschluss L (IG)",
+      "id": "AN-tYr6Qg2",
+      "active": true,
+      "siteName": "Filiale Köln",
+      "street": "ABC-Straße 12",
+      "zipCode": "13452",
+      "location": "Köln",
+      "links": [
+        {
+          "name": "EC 2.0 EPL 8M",
+          "id": "DTAG_VC_hrsbsb",
+          "active": true,
+          "uniPorts": ["UNI-3"],
+          "endpointA": null,
+          "locationA": null,
+          "endpointB": null,
+          "locationB": null
+        }
+      ]
+    },
+    {
+      "name": "EC 2.0 Anschluss L (IG)",
+      "id": "AN-tYr6Qg3",
+      "active": true,
+      "siteName": "Filiale Dortmund",
+      "street": "ABC-Straße 12",
+      "zipCode": "13452",
+      "location": "Dortmund",
+      "links": [
+        {
+          "name": "EC 2.0 EPL 8M",
+          "id": "DTAG_VC_hrsbsa",
+          "active": true,
+          "uniPorts": ["UNI-4"],
+          "endpointA": null,
+          "locationA": null,
+          "endpointB": null,
+          "locationB": null
+        }
+      ]
+    }
+  ]
+}

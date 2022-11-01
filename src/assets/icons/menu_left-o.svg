@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 65 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C1F6DCC0-E959-461A-BBDD-F91556E3E1BA</title>
+    <g id="Tokens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TO-Icons" transform="translate(-780.000000, -1201.000000)">
+            <g id="Group-7" transform="translate(133.000000, 1201.000000)">
+                <g id="TO-Icons/B/back/outline" transform="translate(647.500000, 0.000000)">
+                    <polygon id="Protection" points="-0.0005 0 64.0005 0 64.0005 64 -0.0005 64"></polygon>
+                    <g id="Color-2" transform="translate(18.000000, 10.000000)" fill="#262626">
+                        <path d="M1.5005,44.9995 C1.1165,44.9995 0.7325,44.8535 0.4395,44.5605 C-0.1465,43.9745 -0.1465,43.0255 0.4395,42.4395 L20.3795,22.4995 L0.4395,2.5605 C-0.1465,1.9745 -0.1465,1.0255 0.4395,0.4395 C1.0255,-0.1465 1.9745,-0.1465 2.5605,0.4395 L23.5605,21.4395 C24.1465,22.0255 24.1465,22.9745 23.5605,23.5605 L2.5605,44.5605 C2.2685,44.8535 1.8845,44.9995 1.5005,44.9995 Z" id="Color" transform="translate(12.000000, 22.499750) scale(-1, 1) translate(-12.000000, -22.499750) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

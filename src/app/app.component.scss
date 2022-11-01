@@ -1,19 +1,59 @@
-p {
-  font-family: Lato;
-}
+$telekommagenta: #E20074;
 
 ::ng-deep .sortable-item {
-  padding: unset;
-  margin-bottom: unset;
-  line-height: unset;
-  text-align: unset;
-  border-radius: unset;
+  cursor: grab;
 
   &:last-child .list-group-item {
     border-bottom: 1px solid #dfdfdf;
   }
+
+  &.active>.list-group-item {
+    background-color: $telekommagenta;
+  }
+}
+
+.list-group {
+  font-family: 'TeleNeo Regular';
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .list-group-item {
   border-bottom: unset;
+  border-radius: unset;
+}
+
+
+.form-check-input {
+  width: px;
+  height: 18px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #6B6B6B;
+  box-shadow: unset;
+  background-color: unset;
+
+  &:checked {
+    background-image: url("/assets/icons/tick-green.svg");
+  }
+
+  &:hover {
+    background-color: #aaaaaa;
+  }
+
+  &:disabled {
+    opacity: 50%;
+  }
+
+  &.partial-check {
+    background-image: url("/assets/icons/tick-cross.svg") !important;
+  }
+
+  &.all-check {
+    background-image: url("/assets/icons/tick-green.svg") !important;
+  }
+
+  &.none-check {
+    background-image: unset !important;
+  }
 }

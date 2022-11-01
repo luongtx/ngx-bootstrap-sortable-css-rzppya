@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AB6C8AAD-367D-44EF-AC0A-DEBCCC5EFE82</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#5B8F22" offset="0%"></stop>
+            <stop stop-color="#7BA84A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tokens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TO-Icons" transform="translate(-1011.000000, -400.000000)">
+            <g id="Group" transform="translate(133.000000, 400.000000)">
+                <g id="A-Icons/A/available/graphical-Copy-2" transform="translate(878.000000, 0.000000)">
+                    <polygon id="Protection" points="0 0 64.001 0 64.001 64 0 64"></polygon>
+                    <g id="Group" transform="translate(4.500000, 4.000000)" fill-rule="nonzero">
+                        <path d="M28.002,0 C12.535,0 0,12.535 0,28.002 C0,43.467 12.535,56 28.002,56 C43.467,56 56,43.467 56,28.002 C56,12.535 43.467,0 28.002,0 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                        <path d="M23.002,39.5 C22.619,39.5 22.234,39.354 21.941,39.061 L12.941,30.061 C12.355,29.475 12.355,28.526 12.941,27.94 C13.527,27.354 14.476,27.354 15.062,27.94 L23.002,35.879 L41.941,16.94 C42.527,16.354 43.476,16.354 44.062,16.94 C44.648,17.526 44.648,18.475 44.062,19.061 L24.062,39.061 C23.771,39.354 23.387,39.5 23.002,39.5 Z" id="Path" fill="#FFFFFF" opacity="0.9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

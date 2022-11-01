@@ -1,0 +1,26 @@
+{
+  "totalPages": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "name": "EC 2.0 EPL 8M",
+      "id": "DTAG_VC_hrsbsb",
+      "active": true,
+      "uniPorts": ["UNI-1", "UNI-3"],
+      "endpointA": "Zentrale",
+      "locationA": "Bonn",
+      "endpointB": "Filiale Köln",
+      "locationB": "Köln"
+    },
+    {
+      "name": "EC 2.0 EVPL 400M",
+      "id": "DTAG_VC_hrsbsa",
+      "active": true,
+      "uniPorts": ["UNI-2", "UNI-4"],
+      "endpointA": "Zentrale",
+      "locationA": "Bonn",
+      "endpointB": "Filiale Dortmund",
+      "locationB": "Dortmund"
+    }
+  ]
+}

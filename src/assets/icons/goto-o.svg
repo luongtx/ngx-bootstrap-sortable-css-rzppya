@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 64" width="25px" height="25px">
+	<title>collapse-o-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none }
+		.shp1 { fill: #262626 }
+	</style>
+	<g id="Tokens">
+		<g id="TO-Icons">
+			<g id="Group-6">
+				<g id="A-Icons/C/collapse/graphical-Copy">
+					<path id="Protection" class="shp0" d="M0.5 64L0.5 0L64.5 0L64.5 64L0.5 64Z" />
+					<path id="Color" fill-rule="evenodd" class="shp1" d="M42.95 9.52C43.35 9.52 43.75 9.62 44.05 9.92C44.65 10.52 44.65 11.42 44.05 12.02L24.05 32.02L44.05 51.92C44.65 52.52 44.65 53.42 44.05 54.02C43.45 54.62 42.55 54.62 41.95 54.02L20.95 33.02C20.35 32.42 20.35 31.52 20.95 30.92L41.95 9.92C42.15 9.62 42.55 9.52 42.95 9.52Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

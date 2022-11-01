@@ -1,0 +1,36 @@
+{
+  "totalPages": 1,
+  "totalItems": 3,
+  "data": [
+    {
+      "name": "EC 2.0 Anschluss L (IG)",
+      "id": "AN-tYr6Qg1",
+      "active": true,
+      "siteName": "Zentrale",
+      "street": "ABC-Straße 12",
+      "zipCode": "13452",
+      "location": "Bonn",
+      "links": null
+    },
+    {
+      "name": "EC 2.0 Anschluss L (IG)",
+      "id": "AN-tYr6Qg1",
+      "active": true,
+      "siteName": "Filiale Köln",
+      "street": "ABC-Straße 12",
+      "zipCode": "13452",
+      "location": "Köln",
+      "links": null
+    },
+    {
+      "name": "EC 2.0 Anschluss L (IG)",
+      "id": "AN-tYr6Qg1",
+      "active": true,
+      "siteName": "Filiale Dortmund",
+      "street": "ABC-Straße 12",
+      "zipCode": "13452",
+      "location": "Dortmund",
+      "links": null
+    }
+  ]
+}

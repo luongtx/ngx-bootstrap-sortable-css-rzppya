@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="26px" viewBox="0 0 46 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>00_Tokens/TO-Icons/D/decreasing/outline</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-9.000000, -19.000000)">
+            <polygon id="Protection" points="0 0 64.001 0 64.001 64 0 64"></polygon>
+            <path d="M32.0005,44.085 C31.1035,44.085 30.2085,43.744 29.5255,43.062 L10.3535,23.89 C9.1875,22.725 9.4495,21.661 9.6165,21.257 C9.7845,20.853 10.3515,19.915 12.0005,19.915 L52.0005,19.915 C53.6495,19.915 54.2165,20.853 54.3835,21.257 C54.5505,21.66 54.8125,22.725 53.6465,23.89 L34.4755,43.061 C33.7925,43.743 32.8965,44.085 32.0005,44.085 Z M13.6215,22.915 L31.6465,40.94 C31.8375,41.131 32.1625,41.131 32.3535,40.94 L50.3795,22.915 L13.6215,22.915 Z" id="Color" fill="#262626"></path>
+        </g>
+    </g>
+</svg>

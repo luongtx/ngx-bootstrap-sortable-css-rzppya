@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>439BE1BA-0D91-4316-898D-94618012E699</title>
+    <g id="Order-Übergabe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TO-Icons" transform="translate(-545.000000, -934.000000)">
+            <g id="A-Icons/C/confirm/graphical-Copy-5" transform="translate(545.000000, 934.000000)">
+                <polygon id="Protection" points="0 0 64.001 0 64.001 64 0 64"></polygon>
+                <path d="M23.0466212,51.71875 C22.0586212,51.71875 21.0686212,51.35475 20.2966212,50.62275 L6.76862125,37.81275 C5.16462125,36.29375 5.09562125,33.76175 6.61462125,32.15875 C8.13262125,30.55375 10.6646212,30.48475 12.2686212,32.00475 L22.9706212,42.13775 L51.6516212,13.45275 C53.2136212,11.89075 55.7466212,11.89075 57.3086212,13.45275 C58.8716212,15.01375 58.8716212,17.54675 57.3096212,19.10875 L25.8756212,50.54675 C25.0966212,51.32675 24.0716212,51.71875 23.0466212,51.71875 Z" id="Color" fill="green"></path>
+            </g>
+        </g>
+    </g>
+</svg>

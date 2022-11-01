@@ -1,0 +1,177 @@
+/* Add application styles & imports to this file! */
+
+/* You can add global styles to this file, and also import other style files */
+$telekommagenta: #E20074;
+
+@font-face {
+  font-family: "TeleNeo Regular";
+  src: url(assets/fonts/TeleNeo_Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "TeleNeo Bold";
+  src: url(assets/fonts/TeleNeo_Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "TeleNeo ExtraBold";
+  src: url(assets/fonts/TeleNeo_Extrabold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "TeleNeo Medium";
+  src: url(assets/fonts/TeleNeo_Medium.ttf) format("truetype");
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: "TeleNeo Regular";
+}
+
+textarea,
+input[type="text"],
+.input-group,
+button,
+select {
+  &:hover {
+    border-color: $telekommagenta  !important;
+    background-color: unset !important;
+    color: unset !important;
+  }
+
+  &:focus {
+    border-color: $telekommagenta  !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $telekommagenta  !important;
+    outline: 0 none;
+  }
+}
+
+.btn.camouflage {
+  color: black;
+  background-color: white;
+  border: 1px solid #ffffff;
+}
+
+.link-return {
+  color: #262626;
+  text-decoration: none;
+
+  &:hover {
+    color: $telekommagenta;
+    outline: 0 none;
+  }
+}
+
+.icon-circle {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background: #EDEDED;
+  text-align: center;
+
+  img {
+    margin-top: 15px;
+  }
+}
+
+.lable-select {
+  font-size: 15px;
+  line-height: 20px;
+  color: #6B6B6B;
+}
+
+.form-select {
+  border: 1px solid #6B6B6B;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262626;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.badge-title {
+  font-size: 15px;
+  line-height: 20px;
+  color: #6B6B6B;
+}
+
+.badge-value {
+  font-size: 18px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.card-title {
+  font-family: 'TeleNeo Bold';
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.card-holder {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 25px;
+  padding: 30px;
+}
+
+
+/* customized tabs */
+
+li.nav-item {
+  width: 200px;
+  height: 47px;
+
+  &>a {
+    border: 0 !important;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    color: #262626;
+  }
+
+  &.active {
+    border-bottom: 3px solid $telekommagenta  !important;
+
+    &>a {
+      color: $telekommagenta  !important;
+      background-color: inherit !important;
+    }
+  }
+}
+
+.tab-content {
+  margin-top: 20px !important;
+  width: 1340px;
+}
+
+.action-group button {
+  white-space: nowrap;
+}
+
+.title-lv-1 {
+  font-family: "TeleNeo ExtraBold";
+  font-size: 48px;
+  line-height: 53px;
+}
+
+.title-lv-2 {
+  font-family: "TeleNeo Medium";
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.btn {
+  font-family: "TeleNeo Medium";
+  font-size: 18px;
+  line-height: 21px;
+  color: #262626 !important;
+  padding: 10px 15px 10px 15px
+}
+
+.btn-magenta {
+  background-color: $telekommagenta !important;
+  border: $telekommagenta !important;
+  color: #ffffff !important;
+}

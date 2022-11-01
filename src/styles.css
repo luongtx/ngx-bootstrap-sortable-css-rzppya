@@ -1,0 +1,27 @@
+/* Add application styles & imports to this file! */
+
+.sortable-item {
+    padding: 6px 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 1.4em;
+    text-align: center;
+    cursor: grab;
+    border-radius: 4px;
+    border-color: #adadad;
+}
+
+.placeholderStyle{
+  font-size: 20px;
+}
+
+.dragged-question .sortable-wrapper{
+  min-height: 250px;
+  border: 1px solid #000;
+
+}
+
+.dragged-question .sortable-item:last-child{
+  min-height: inherit;
+}
+

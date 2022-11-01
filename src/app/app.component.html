@@ -1,7 +1,9 @@
 <ng-template #itemTemplate let-item="item" let-index="index">
-  <div class="list-group-item"> <input type="checkbox" name="checkbox" id="" class="form-check-input ms-3"> <label
-      for="checkbox" class="ms-2">{{item.value}}</label></div>
-  </ng-template>
+  <div class="list-group-item"> 
+    <input type="checkbox" name="checkbox" id="" class="form-check-input ms-3"> <label
+      for="checkbox" class="ms-2">{{item.value}}</label>
+  </div>
+</ng-template>
 
 <div class="row">
   <div class="col-xs-6 col-6 col-md-5 col-lg-3 m-3">
@@ -10,13 +12,16 @@
           for="checkbox" class="ms-2">Select all</label>
       </div>
       <bs-sortable 
-        [(ngModel)]="itemStringsLeft" 
+        [(ngModel)]="columnsConfig" 
+        fieldName="title"
         [itemTemplate]="itemTemplate" 
         itemClass="sortable-item"
         itemActiveClass="active" 
         wrapperClass="sortable-wrapper">
       </bs-sortable>
     </div>
-    <pre class="code-preview mt-3">model: {{ itemStringsLeft | json }}</pre>
+  </div>
+  <div class="col-xs-6 col-6 col-md-5 col-lg-3 m-3">
+    <pre class="code-preview mt-3">model: {{ columnsConfig | json }}</pre>
   </div>
 </div>
